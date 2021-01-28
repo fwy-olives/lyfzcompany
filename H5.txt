@@ -1,0 +1,18 @@
+\common\utils\public.js                  外链新增判断处理
+
+\pages\lifemall\goodsDetail
+
+商品详情 富文本组件更换 uParse 校验正则 richImg改为richnone
+<uParse v-if="detail.content!==''" :content="richnone(detail&&detail.content?detail.content:'')" 
+				@navigate="navigate" ></uParse>
+
+D:\Users\lyu\Desktop\uniapp\common\mixins\setData.js
+增加
+richnone (v) {
+	if(!v) return '';
+	v = formatRichText(v)
+		v =  v.replace(/<a/gi, `<a style="text-decoration: none;"`)
+		v =  v.replace(/<\/a>/gi, '</a>')
+	v =  v.replace(/&nbsp;/gi, '&ensp;')
+	return v
+},

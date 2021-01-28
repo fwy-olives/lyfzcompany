@@ -1,0 +1,8 @@
+application\common\library\Sms.php   短信配置；
+application\http\service\SmsService.php   短信配置；
+application\admin\view\config_manage\index.html   短信配置；
+pc\public\include.php   商户js加载
+application\http\controllers\api\v1\user\merchant\BusinessesManage.php   商户后端新增商家权限细化处理；
+application\http\request\business\BusinessManagePost.php 商户后端新增商家权限细化处理；
+merchant\http\service\App.php 根据细化权限，现在多商户后台菜单显示；
+merchant\repositories\BusinessManageRepository.php 根据细化权限，现在多商户后台菜单显示；
