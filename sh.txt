@@ -5,3 +5,4 @@ src\components\fitup\com\eventAside\event\other\otherHome.vue   商户端新增外链事
 
 src\components\fitup\com\eventAside\eventLib  增加权益卡组件
 src\components\fitup\com\eventAside\event 增加 eventRights.vue 文件
+D:\qxy\sh\src\components\page\function\quanyi\cardManage.vue 增加所有人
