@@ -20,3 +20,4 @@ richnone (v) {
 
 \uniapp\pages\lifemall\goodsDetail 页面修改两个组件
 \uniapp\pages\webview 增加一个 webview1.vue
+\uniapp\pages\quanyika\equitList 增加返回首页
